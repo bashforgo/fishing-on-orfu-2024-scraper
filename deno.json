@@ -1,6 +1,9 @@
 {
+  "imports": {
+    "deno_dom": "https://deno.land/x/deno_dom@v0.1.45/deno-dom-wasm.ts"
+  },
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --watch --allow-net main.ts"
   },
   "lint": {
     "rules": {
